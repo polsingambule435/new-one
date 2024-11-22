@@ -1,0 +1,390 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+div#carouselExampleCaptions {
+    margin-top: -120px;
+    z-index: -1;
+    position: relative;
+}
+
+nav.header-bar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 25px;
+    padding: 0px 25px;
+    align-items: center;
+}
+.header-bar-col.header-bar-col1 img {
+    height: 45px;
+    width: auto;
+    object-fit: cover;
+}
+.header-bar-col2 {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.header-bar-col2 a{
+	display: flex;
+}
+.header-bar-col2 .callName{
+    display: flex;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-decoration: none;
+    padding-left: 35px;
+}
+.header-bar-col2 .callNum{
+    font-size: 30px;
+	line-height: 25px;
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: 700;
+	font-family: "Montserrat";
+	text-decoration: none;
+}
+.menu-bar {
+    margin: 0px 25px;
+    padding: 15px 25px 0px;
+}
+.menu-bar ul {
+    display: flex;
+    justify-content: right;
+    gap: 50px;
+}
+.menu-bar ul a{
+    text-decoration: none;
+}
+.menu-bar ul a li{
+    list-style: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family: "Montserrat";
+}
+
+.carousel-indicators {
+    display: none;
+}
+.carousel-caption {
+    position: absolute;
+    right: 42%;
+    bottom: 10.25rem;
+    left: -10%;
+    padding-top: 2.25rem;
+    padding-bottom: 1.25rem;
+    color: #000;
+    text-align: center;
+}
+.carousel-caption h1 {
+    font-size: 58px;
+    color: #000000;
+    font-family: "Gabelisa";
+}
+.carousel-caption h2{
+	font-size: 80px;
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: 400;
+	font-family: "Fredericka the Great";
+}
+
+.carousel-caption h3{
+	font-size: 27px;
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: 700;
+	font-family: "Montserrat";
+	position: relative;
+}
+.carousel-caption h3::before {
+    content: "";
+    border-top: 1px solid #000;
+    width:28.5rem;
+    position: absolute;
+    left:25%;
+    top: 60px;
+    z-index: 1;
+}
+.carousel-caption button {
+    margin-top: 50px;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    background: transparent;
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 800;
+    font-family: "Montserrat";
+    cursor: pointer;
+}
+.spaghetti-img img {
+    position: absolute;
+    top: 28rem;
+    left: -20rem;
+}
+#collection-wrapper{
+	margin-top:80px;
+}
+.collection-wrpr-heading h1 {
+    font-size: 45px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Fredericka the Great";
+}
+.collection-wrpr-heading p{
+    padding-bottom: 40px;
+	padding-top:15px;
+    width: 1000px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+    font-weight:500;
+    font-family: "Montserrat";
+    text-align: center;
+    margin: 0 auto;
+}
+.collection-wrpr-content{
+    /*background-image: url(../images/collectionBack.png);*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*height: 125px;*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    align-items: center;
+    margin: 0px 25px;
+    padding: 0px 25px;
+}
+.collction-col{
+   text-align: center;
+    padding-bottom: 15px;
+}
+.collction-col img {
+    height: 300px;
+    margin: 0 auto;
+}
+.collction-col h4 {
+    padding-top: 20px;
+    font-size: 21px;
+    line-height: 21px;
+    color: #000000;
+    font-weight: bold;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.collction-col span {
+    width: 367px;
+    height: 51px;
+    font-size: 17px;
+    line-height: 21px;
+    color: #000000;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    display: block;
+}
+.collction-col button{
+    margin-top: 22px;
+    background-color: #ffe001;
+    padding: 15px 30px 10px 30px;
+    border: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.collction-col:hover{
+    transition: 0.5s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+section#discover-section {
+    margin-top: 5rem;
+}
+.discover-wrapper img {
+    height: 300px;
+    width: 95%;
+    object-fit: cover;
+    margin: 0 auto;
+}
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #ffe001;
+}
+.slick-dots li button:before {
+    font-family: slick;
+    font-size: 15px;
+}
+.slick-dots {
+    position: absolute;
+    bottom: -40px;
+    }
+.discover-heading h3{
+        margin: 0px;
+        font-size: 21px;
+        letter-spacing: 1px;
+        line-height: 46px;
+        text-transform: uppercase;
+        color: #000000;
+        font-weight: 700;
+        font-family: "Montserrat";
+}
+.discover-heading h1{
+    font-size: 42px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Fredericka the Great";
+}
+.discover-heading p{
+    padding-top: 20px;
+    padding-bottom: 80px;
+    width: 1035px;
+    height: 45px;
+    font-size: 17px;
+    line-height: 25px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    margin: 0 auto;
+}
+section#most-popular-section {
+    margin-top: 80px;
+}
+.most-popular-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0px 25px;
+    padding: 0px 25px;
+}
+.most-popular-col.most-popular-col-2 {
+    display: grid;
+    gap: 36px;
+}
+section#registation-section {
+    margin-top: 50px;
+}
+.registation-heading {
+    padding-bottom: 60px;
+}
+.registation-heading h3{
+    margin: 0px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+.registation-heading h1{
+    font-size:45px;
+    letter-spacing: 3px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Fredericka the Great";
+}
+form.registation-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0px 150px;
+    padding: 0px 150px;
+    column-gap: 25px;
+}
+.registation-col{
+    display: grid;
+    row-gap: 25px;
+}
+.registation-col input {
+    font-size: 18px;
+    padding: 0px 10px;
+    display: block;
+    width: 100%;
+    height: 50px;
+    font-family: "Montserrat";
+    border-radius: 5px;
+    border: 1px solid #b3a9a9;
+}
+.registation-col input:focus{
+    outline:none;
+}
+.registation-col-2 input:nth-child(3) {
+        font-family: "Montserrat";
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        background-color: #ffe001;
+}
+
+footer{
+    background-image: url("../images/footer-back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 34rem;
+    width: 100%;
+}
+.footer-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 16rem;
+    padding: 70px 35px 0px;
+    margin: 0px 35px;
+    align-items: center;
+}
+#footer-section{
+    margin-top:40px;
+    padding-top:40px;
+}
+.footer-col-1 img {
+    height: 65px;
+    width: auto;
+}
+.footer-col-1 p {
+    padding-top: 4rem;
+    width: 520px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+.footer-col-2 {
+    padding-top: 5rem;
+}
+.footer-col-2 a {
+    display: block;
+    padding: 5px 0px;
+    font-size: 16px;
+    line-height: 38px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Montserrat";
+}
+.footer-col-2 img {
+    padding-right: 10px;
+}
+.footer-bottom {
+    padding: 130px 70px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bottom p{
+    font-size: 16px;
+    color: #ffffff;
+}
